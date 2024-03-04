@@ -3,7 +3,7 @@
 body {
     padding:0px;
     margin:0px;
-    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://drive.google.com/file/d/1icZGX_7W2Ex98RY0nH2qgXNbalJLBTpQ/view?usp=sharing") center center;
+    background:linear-gradient(0deg,rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)), url("https://drive.google.com/file/d/1icZGX_7W2Ex98RY0nH2qgXNbalJLBTpQ/view?usp=sharing") center center;
     background-size:cover;
     width:100vw;
     height:100vh;
@@ -26,7 +26,7 @@ body {
     width:50px;
     height:50px;
     border:12px solid #fff;
-    border-bottom:12px solid #ABF600;
+    border-bottom:12px solid #F2FED1;
     border-radius:50%;
     margin:0;
 }
@@ -47,10 +47,10 @@ body {
     display:inline-block;
 }
 .box1 {
-    background:#ABF600;
+    background:#F2FED1;
 }
 .box2 {
-    background:#ABF600;
+    background:#F2FED1;
     margin-left:-5px;
 }
 #menu {
