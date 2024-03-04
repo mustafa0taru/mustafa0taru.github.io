@@ -62,7 +62,7 @@ body {
 #menu a {
     margin:0px 6%;
     font-size:19px;
-    color:#fff;
+    color:#F2FED1;
     text-decoration:underline;
 }
 #middle {
@@ -75,7 +75,7 @@ body {
     top:0;
     text-align:center;
     z-index:1;
-    color:#fff;
+    color:#F2FED1;
     padding-bottom:10vh;
 }
 #middle h1 {
@@ -90,7 +90,7 @@ body {
     font-size:25px;
     transform:rotate(-90deg);
     background:transparent;
-    color:#fff;
+    color:##F2FED1;
     position:fixed;
     left:0;
     bottom:40vh;
@@ -108,7 +108,7 @@ body {
     font-size:25px;
     transform:rotate(90deg);
     background:transparent;
-    color:#fff;
+    color:#F2FED1;
     position:fixed;
     right:0;
     bottom:40vh;
@@ -125,7 +125,7 @@ body {
     text-align:center;
     font-size:25px;
     background:transparent;
-    color:#fff;
+    color:#F2FED1;
     position:fixed;
     bottom:0;
     left:45vw;
@@ -156,7 +156,7 @@ body {
     text-align:center;
 }
 .social {
-    color:#fff;
+    color:#F2FED1;
     font-size:22px;
     border-radius:50%;
     transition:0.4s ease-in-out;
@@ -172,7 +172,7 @@ body {
     height:90vh;
     padding:5vh 5vw;
     background:rgb(255, 50, 50);
-    color:#fff;
+    color:#F2FED1;
     z-index:9;
     position:fixed;
     max-height:100vh;
@@ -214,7 +214,7 @@ body {
 .btn_one {
     font-size:18px;
     font-family: 'Josefin Sans', sans-serif;
-    color:#fff;
+    color:#F2FED1;
     background:transparent;
     border:3px solid #fff;
     padding:8px 40px;
@@ -269,7 +269,7 @@ body {
     background:transparent;
     resize:none;
     transition:0.4s ease-in-out;
-    color:#fff;
+    color:#F2FED1;
     font-weight:bold;
 }
 .container form input:focus {
@@ -284,7 +284,7 @@ body {
     color:#fff;
 }
 #footer {
-    color:#fff;
+    color:#F2FED1;
     width:92vw;
     padding:5vh 4vw;
     text-align:right;
@@ -307,7 +307,7 @@ body {
     height:5px;
 }
 ::-webkit-scrollbar-track {
-    background: #fff; 
+    background: #F2FED1; 
 }
 ::-webkit-scrollbar-thumb {
     background: rgb(255, 50, 50); 
@@ -316,7 +316,7 @@ body {
     background: rgba(255, 50, 50,0.8); 
 }
 ::selection {
-	color: #fff;
+	color: #F2FED1;
 	background: rgb(255, 50, 50);
 }
 
