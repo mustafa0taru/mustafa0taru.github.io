@@ -26,14 +26,14 @@ function closework(){
         $("#work_container").css("display","none");
     },800);
 }
-function showcontact(){
+function showblog(){
     $("#contact_container").css("display","inherit");
     $("#contact_container").addClass("animated slideInUp");
     setTimeout(function(){
         $("#contact_container").removeClass("animated slideInUp");
     },800);
 }
-function closecontact(){
+function closeblog(){
     $("#contact_container").addClass("animated slideOutDown");
     setTimeout(function(){
         $("#contact_container").removeClass("animated slideOutDown");
@@ -47,7 +47,7 @@ setTimeout(function(){
       $("#loading").css("display","none");
       $("#box").css("display","none");
       $("#about").removeClass("animated fadeIn");
-      $("#contact").removeClass("animated fadeIn");
+      $("#blog").removeClass("animated fadeIn");
       $("#work").removeClass("animated fadeIn");
     },1000);
 },1500);
