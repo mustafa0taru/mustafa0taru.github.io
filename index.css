@@ -254,7 +254,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size:18px;
     transition:0.4s ease-in-out;
-    color:#fff;
+    color:#404040;
     font-weight:bold;
 }
 .container form textarea {
@@ -274,14 +274,14 @@ body {
 }
 .container form input:focus {
     outline:none;
-    border-bottom:3px solid rgba(255, 255, 255,1);
+    border-bottom:3px solid #404040;
 }
 .container form textarea:focus {
     outline:none;
-    border-bottom:3px solid rgba(255, 255, 255,1);
+    border-bottom:3px solid #404040;
 }
 ::placeholder {
-    color:#fff;
+    color:#404040;
 }
 #footer {
     color:#F2FED1;
@@ -295,7 +295,7 @@ body {
     font-weight:bold;
 }
 #footer a {
-    color:#ABF600 ;
+    color:#F2FED1 ;
 }
 #particles-js {
     position:fixed;
@@ -310,14 +310,14 @@ body {
     background: #F2FED1; 
 }
 ::-webkit-scrollbar-thumb {
-    background: #ABF600; 
+    background: #F2FED1; 
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: #ABF600; 
+    background: #F2FED1; 
 }
 ::selection {
-	color: #F2FED1;
-	background: #ABF600;
+	color: #404040;
+	background: #F2FED1;
 }
 
 @media (max-width: 800px){ 
