@@ -26,19 +26,20 @@ function closework(){
         $("#work_container").css("display","none");
     },800);
 }
-function showblog(){
-    $("#blog_container").css("display","inherit");
-    $("#blog_container").addClass("animated slideInUp");
-    setTimeout(function(){
-        $("#blog_container").removeClass("animated slideInUp");
-    },800);
+function showblog() {
+    $("#blog").css("display", "inherit");
+    $("#blog").addClass("animated slideInUp");
+    setTimeout(function () {
+        $("#blog").removeClass("animated slideInUp");
+    }, 800);
 }
-function closeblog(){
-    $("#blog_container").addClass("animated slideOutDown");
-    setTimeout(function(){
-        $("#blog_container").removeClass("animated slideOutDown");
-        $("#blog_container").css("display","none");
-    },800);
+
+function closeblog() {
+    $("#blog").addClass("animated slideOutDown");
+    setTimeout(function () {
+        $("#blog").removeClass("animated slideOutDown");
+        $("#blog").css("display", "none");
+    }, 800);
 }
 setTimeout(function(){
     $("#loading").addClass("animated fadeOut");
