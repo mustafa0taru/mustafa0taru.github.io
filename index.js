@@ -27,18 +27,18 @@ function closework(){
     },800);
 }
 function showblog() {
-    $("#blog").css("display", "inherit");
-    $("#blog").addClass("animated slideInUp");
+    $("#blog_container").css("display", "inherit");
+    $("#blog_container").addClass("animated slideInUp");
     setTimeout(function () {
-        $("#blog").removeClass("animated slideInUp");
+        $("#blog_container").removeClass("animated slideInUp");
     }, 800);
 }
 
 function closeblog() {
-    $("#blog").addClass("animated slideOutDown");
+    $("#blog_container").addClass("animated slideOutDown");
     setTimeout(function () {
-        $("#blog").removeClass("animated slideOutDown");
-        $("#blog").css("display", "none");
+        $("#blog_container").removeClass("animated slideOutDown");
+        $("#blog_container").css("display", "none");
     }, 800);
 }
 setTimeout(function(){
