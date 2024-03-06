@@ -34,7 +34,7 @@ function showblog(){
     },800);
 }
 function closeblog(){
-    $("#cblog_container").addClass("animated slideOutDown");
+    $("#blog_container").addClass("animated slideOutDown");
     setTimeout(function(){
         $("#blog_container").removeClass("animated slideOutDown");
         $("#blog_container").css("display","none");
